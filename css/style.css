@@ -273,10 +273,10 @@ p {
   color: #adb5bd;
   border: 1px solid #adb5bd;
   display: inline-block;
-  height: 32px;
+  height: 35px;
   text-align: center;
-  font-size: 15px;
-  width: 32px;
+  font-size: 25px;
+  width: 40px;
   line-height: 30px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -648,6 +648,8 @@ p {
 .bg-hero .hero-img {
   position: relative;
   z-index: 3;
+  width: 200%;
+    height: 200%;
 }
 
 .bg-half {
@@ -772,15 +774,22 @@ p {
     height: auto;
   }
 }
-
+.video {
+    padding-top:6px ;
+    border: 10px  solid #a83a31;
+    border-radius: 15px;
+    
+    
+}
 .about-hero:before {
   content: '';
-  position: absolute;
+  position:absolute;
   top: 0px;
-  right: 3%;
-  left: 10%;
+  right: 10%;
+  left: 1%;
   bottom: 0%;
-  border: 16px solid #e9ecef;
+  border: 12px solid #c3453b;
+    
 }
 
 .about-info .name {
@@ -1321,6 +1330,18 @@ hr {
   position: absolute;
 }
 
+.img-footer a {
+    padding: 12px;
+    cursor: default;
+    position: relative;
+    box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+    transition: all 400ms ease;
+    
+    
+}
+.img-footer a :hover {
+  box-shadow:5px 5px 20px rgba (0,0,0,0.4);
+}
 ul.pattern {
   list-style: none outside none;
   margin: 0 0 0px;
